@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="css/functions.js" defer></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <i><img src="img/menu_4518714.png" class="header__icon" alt="Icono Menu" width="100"></i>
+        <img class="header__logo" src="img/Jujutsu_Kaisen_logo_in_Japan.png" alt="Logo Adias" width="100">
+    </header>
+    <main>
+        <section class="banner">
+            <h2>Contacto</h2>
+        </section>
+
+        <form>
+            <fieldset>
+                <legend>Informacion del Usuario</legend>
+                <!-- Campos relacionados con el usuario -->
+                <div> <!-- Contenido de la seccion -->
+                    <label for="name">Nombre</label>
+                    <input type="Text" id="name" name="name" required placeholder="Ingresa tu nombre">
+                </div>
+    
+                <div> <!-- Contenido de la seccion -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Describe el inconveniente</legend>
+                <!-- Campos relacionados con el usuario -->
+                <div> <!-- Contenido de la seccion -->
+                    <label>Seccion</label>
+                    <select>
+                        <option value="">-- Selecciona uno --</option>
+                        <option value="tienda">Tienda</option>
+                        <option value="pago">Pago</option>
+                        <option value="envio">Envio</option>
+                        <option value="dudas y aclaraciones">Dudas y aclaraciones</option>
+                    </select>
+                </div>
+    
+                <div> <!-- Contenido de la seccion -->
+                    <label>Descripcion</label>
+                    <textarea></textarea>
+                </div>
+            </fieldset>
+            
+    
+            <input class="input" type="submit" value="Enviar"> <!-- Boton de envio -->
+        </form>
+
+        <section class="menu">
+            <h2>MENU</h2>
+            <section>
+                <nav>
+                    <span class="header__link"><a href="index.html">Tienda</a></span>
+                    <span class="header__link"><a href="informacion.html">Informacion</a></span>
+                    <span class="header__link"><a href="galeria.html">Galeria</a></span>
+                </nav>
+            </section>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
