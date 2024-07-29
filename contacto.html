@@ -10,23 +10,22 @@
 <body>
     <header>
         <i><img src="img/menu_4518714.png" class="header__icon" alt="Icono Menu" width="100"></i>
-        <img class="header__logo" src="img/Jujutsu_Kaisen_logo_in_Japan.png" alt="Logo Adias" width="100">
+        <img class="header__logo" src="img/Jujutsu_Kaisen_logo_in_Japan.png" alt="Logo Jujutsu kaisen" width="100">
     </header>
     <main>
         <section class="banner">
             <h2>Contacto</h2>
         </section>
 
-        <form>
+        <form aria-labelledby="contact-form">
             <fieldset>
                 <legend>Informacion del Usuario</legend>
-                <!-- Campos relacionados con el usuario -->
-                <div> <!-- Contenido de la seccion -->
+                <div>
                     <label for="name">Nombre</label>
                     <input type="Text" id="name" name="name" required placeholder="Ingresa tu nombre">
                 </div>
     
-                <div> <!-- Contenido de la seccion -->
+                <div>
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
                 </div>
@@ -34,11 +33,10 @@
     
             <fieldset>
                 <legend>Describe el inconveniente</legend>
-                <!-- Campos relacionados con el usuario -->
-                <div> <!-- Contenido de la seccion -->
+                <div>
                     <label>Seccion</label>
                     <select>
-                        <option value="">-- Selecciona uno --</option>
+                        <option value="selecciona">-- Selecciona uno --</option>
                         <option value="tienda">Tienda</option>
                         <option value="pago">Pago</option>
                         <option value="envio">Envio</option>
@@ -46,14 +44,14 @@
                     </select>
                 </div>
     
-                <div> <!-- Contenido de la seccion -->
+                <div>
                     <label>Descripcion</label>
                     <textarea></textarea>
                 </div>
             </fieldset>
             
     
-            <input class="input" type="submit" value="Enviar"> <!-- Boton de envio -->
+            <input class="input" type="submit" value="Enviar" aria-label="Enviar formulario de contacto">
         </form>
 
         <section class="menu">
